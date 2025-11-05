@@ -1,4 +1,4 @@
-### Pokémon Card Verification – Group 23 ###
+### Pokémon Card Verification – Group 20 ###
 
 Course: CSE-540 (Blockchain Systems)
 Network: Polygon Amoy Testnet
