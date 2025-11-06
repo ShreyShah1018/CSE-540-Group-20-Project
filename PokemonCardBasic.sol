@@ -1,6 +1,20 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
+/**
+ * This version is designed for the early stage of a provenance tracking system.
+ *
+ * Features:
+ *  - Users can submit Pokémon cards with name and card number.
+ *  - The contract owner (deployer) can verify and grade submitted cards.
+ *  - Events are emitted for submission and verification for easy tracking.
+ *
+ * Planned Extensions:
+ *  - Add a Marketplace smart contract for buying/selling verified cards.
+ *  - Add provenance history (track all previous owners and transfers).
+ *  - Connect frontend UI and integrate with MetaMask for user-friendly interaction.
+ */
+
 contract PokemonCardBasic {
     // Deployer/Owner == can verify cards
     address public owner;
@@ -73,4 +87,5 @@ contract PokemonCardBasic {
     function isVerified(uint256 cardId) external view returns (bool) {
         return cards[cardId].status == Status.Verified;
     }
+
 }
