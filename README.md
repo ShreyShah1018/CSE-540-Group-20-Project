@@ -42,7 +42,7 @@ It implements a full end-to-end Web3 workflow:
 3) Connect to the ganache environment in remix IDE by clicking on environment dropdown and selecting custom - HTTP provider
 4) Deploy all the smart contracts. The wallet address used to deploy cardregistry.sol will be considered as the owner or the company responsible for card creation. To deploy the other 2 contracts, you will have to paste the deployed cardregistry.sol address in constructor value.
 5) In cardregistry, execute fuctions setMarketplace and setApprovalForAll using the marketplace contract address. Execute registerGrader function using the grader address.
-6) In grader contract, execute setGrader funtction with input of an account address that you want to be the grader. You will need to execute the function using the owner's address.
+6) In grader contract, execute setGrader function with input of an account address that you want to be the grader. You will need to execute the function using the owner's address.
 7) Once this is done, you can open the UI and in configuration tab, input the address of all deployed contracts and their ABIs.
 8) once copied, click connect to contracts.
 9) Now you can use this UI to test the functionality of code.
