@@ -47,5 +47,5 @@ It implements a full end-to-end Web3 workflow:
 8) once copied, click connect to contracts.
 9) Now you can use this UI to test the functionality of code.
 
-NOTE : For each account that you want to be able to sell its cards on the marketplace, you will have to call the setApprovalForAll function of cardregistry.sol (with input of marketplace address). In above steps we have already called this function using the admin account so that the card it creates can be sold. For example if account 2 buys a card but the function is not called from account2's address. No oher account will be able to buy this card from this account. This is a design choice and doing this indicates that the account is allowing the marketplace to sell their cards on their behalf. 
+NOTE : For each account that you want to be able to sell its cards on the marketplace, you will have to call the setApprovalForAll function of cardregistry.sol (with input of marketplace address). In above steps we have already called this function using the admin account so that the card it creates can be sold. For example if account 2 buys a card but the function is not called from account2's address, no other account will be able to buy this card from account2. This is a design choice and doing this indicates that the account is allowing the marketplace to sell their cards on their behalf. 
 
