@@ -29,7 +29,7 @@ It implements a full end-to-end Web3 workflow:
 
 ### Dependencies / Setup Instructions ###
 
-- Remix IDE or a local Solidity environment (≥ 0.8.20).
+- Remix IDE or a local Solidity environment (0.8.20).
 - We have used ganache for local deployment. To install ganache, use command npm install -g ganache. 
 - IPFS Desktop to store the card metadata
 - To install IPFS Desktop, visit the github page and follow the instructions : https://github.com/ipfs/ipfs-desktop
